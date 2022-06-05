@@ -1,0 +1,35 @@
+:root {
+    --clr-main-100: #e0efde; 
+    --clr-main-900: #2b3d41;
+    --clr-white: #fff;
+    --clr-black: #000;
+    
+    --ff-title: 'Ubuntu', sans-serif;
+    --ff-text: 'Neuton', serif;
+  
+}
+
+*, *::before, *::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    background-color: var(--clr-main-100);
+    width: 95vw;
+    margin: 2rem auto;
+    font-family: var(--ff-title);
+}
+
+@media(min-width: 750px) {
+    .app {
+        width: 85vw;
+    }
+}
+
+@media(min-width: 1250px){
+    .app {
+        width: 75vw;
+    }
+}
+

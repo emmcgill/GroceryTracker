@@ -1,0 +1,72 @@
+:root {
+    --clr-main-100: #e0efde; 
+    --clr-main-900: #2b3d41;
+    --clr-white: #fff;
+    --clr-black: #000;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2.5%;
+    width: 48%;
+    margin: 0 2%;
+
+}
+
+.inputTax {
+    width: 4rem;
+    height: 2.75rem;
+    font-size: 1.25rem;
+    border-radius: 5px;
+}
+
+.inputWrapper {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+.inputWrapper > span {
+    color: var(--clr-main-900);
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.text, .inputWrapper > .text {
+    font-size: .85rem;
+}
+
+@media(min-width: 750px) {
+
+    .inputTax {
+        width: 8rem;
+        height: 2.75rem;
+        font-size: 1.25rem;
+        border-radius: 5px;
+    }
+    
+    .inputWrapper {
+        display: flex;
+        align-items: center;
+        gap: 5%;
+    }
+    
+    .inputWrapper > span {
+        color: var(--clr-main-900);
+        font-weight: 700;
+        font-size: 1.25rem;
+    }
+
+    .text, .inputWrapper > .text {
+        font-size: 1rem;
+    }
+
+}
+
+@media(min-width: 1250px) {
+    .text, .inputWrapper > .text {
+        font-size: 1.25rem;
+    }
+
+}

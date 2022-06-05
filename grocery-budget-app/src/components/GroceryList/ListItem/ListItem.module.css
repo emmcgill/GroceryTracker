@@ -1,0 +1,45 @@
+:root {
+    --clr-main-100: #e0efde; 
+    --clr-main-900: #2b3d41;
+    --clr-white: #fff;
+    --clr-black: #000;
+
+    --clr-gray-100: #c8c8c8;
+    --clr-gray-900: #3a3a3a;
+}
+
+.item {
+    display: flex;
+    justify-content:  space-between;
+    color: var(--clr-main-900);
+    background-color: var(--clr-white);
+    padding: .75rem .5rem;
+    border: 2px solid var(--clr-main-900);
+    text-align: center;
+}
+
+.item > p {
+    width: 30%;
+    font-size: .75rem;
+}
+
+.nonFood {
+    color: blue;
+    font-weight: 700;
+    text-align: center;
+}
+
+.isFood {
+    color: transparent;
+    font-weight: 700;
+    text-align: center;
+}
+
+.delete {
+    color: red;
+    font-weight: 600;
+    text-align: center;
+    width: 10%;
+    cursor: pointer;
+}
+

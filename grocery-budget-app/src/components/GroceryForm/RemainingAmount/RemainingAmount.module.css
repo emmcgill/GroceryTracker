@@ -1,0 +1,28 @@
+:root {
+    --clr-main-100: #e0efde; 
+    --clr-main-900: #2b3d41;
+    --clr-white: #fff;
+    --clr-black: #000;  
+}
+
+
+
+.wrapper > h2 {
+    color: var(--clr-main-900);
+}
+
+.amountWrapper {
+    height: 4rem;
+    border: .25rem solid var(--clr-main-900);
+    border-radius: 5px;
+    background-color: var(--clr-white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.amountWrapper > h3 {
+    font-size: 1.5rem;
+    color: #2b3d41;
+}

@@ -1,0 +1,13 @@
+:root {
+    --clr-main-100: #e0efde; 
+    --clr-main-900: #2b3d41;
+    --clr-white: #fff;
+    --clr-black: #000;  
+}
+
+.spacer {
+    background-color: #2b3d41;
+    width: 100%;
+    height: .25rem;
+    margin: 1rem 0;
+}

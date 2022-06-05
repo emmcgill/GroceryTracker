@@ -1,0 +1,29 @@
+:root {
+    --clr-main-100: #e0efde; 
+    --clr-main-900: #2b3d41;
+    --clr-white: #fff;
+    --clr-black: #000;  
+}
+
+h2 {
+    color: var(--clr-main-900);
+    font-size: 1.75rem;
+    margin-bottom: 1.25rem;
+}
+
+.input {
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.wrapper > span {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: var(--clr-main-900);
+}

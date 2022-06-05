@@ -1,0 +1,20 @@
+:root {
+    --clr-main-100: #e0efde; 
+    --clr-main-900: #2b3d41;
+    --clr-white: #fff;
+    --clr-black: #000;  
+}
+
+.title {
+    margin-bottom: .5rem;
+    display: flex;
+    justify-content: center;
+    color: var(--clr-white);
+}
+
+.titleWrapper {
+    background-color: var(--clr-main-900);
+    height: 100%;
+    padding: .5rem;
+    margin: 1.5rem 0;
+}
